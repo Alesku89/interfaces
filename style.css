@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-top: 3vw;
+    width: 30vw;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    div {
+        width: 43vw;
+    }
+
+} 
+
+@media (max-width: 600px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    div {
+        width: 90vw;
+    }
+
+} 
